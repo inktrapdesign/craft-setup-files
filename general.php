@@ -43,10 +43,10 @@ return [
       'subRight' => true,
     ),
 
-    // Aliases parsed in sites’ settings, volumes’ settings, and Local volumes’ settings
+    // Aliases parsed in settings and templates
     'aliases' => [
-      '@assetDirectory' => getenv('ASSET_DIRECTORY'),
-      '@uploadsDirectory' => getenv('UPLOADS_DIRECTORY'),
+      '@assetsUrl' => getenv('ASSETS_URL'),
+      '@localUploadsPath' => getenv('LOCAL_UPLOADS_PATH'),
     ],
 
     // Site-specific config settings
